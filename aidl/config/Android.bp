@@ -1,7 +1,6 @@
 aidl_interface {
     name: "vendor.qti.hardware.display.config",
     vendor_available: true,
-    system_ext_specific: true,
     srcs: [
         "vendor/qti/hardware/display/config/*.aidl",
     ],
@@ -66,30 +65,6 @@ aidl_interface {
         },
         {
             version: "12",
-            imports: ["android.hardware.common-V2"],
-        },
-        {
-            version: "13",
-            imports: ["android.hardware.common-V2"],
-        },
-        {
-            version: "14",
-            imports: ["android.hardware.common-V2"],
-        },
-        {
-            version: "15",
-            imports: ["android.hardware.common-V2"],
-        },
-        {
-            version: "16",
-            imports: ["android.hardware.common-V2"],
-        },
-        {
-            version: "17",
-            imports: ["android.hardware.common-V2"],
-        },
-        {
-            version: "18",
             imports: ["android.hardware.common-V2"],
         },
 
